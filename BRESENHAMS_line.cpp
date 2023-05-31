@@ -55,6 +55,7 @@ void display() {
     glFlush();
 }
 
+
 void init() {
     glClearColor(zero, zero, zero, zero);
     gluOrtho2D(0, 700, 0, 700);
